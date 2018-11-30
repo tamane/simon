@@ -1,0 +1,37 @@
+/* Reset CSS*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline;}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+body { line-height: 1;}
+ol, ul { list-style: none;}
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none;}
+table {	border-collapse: collapse; border-spacing: 0;}
+button:focus {outline:0;}
+button:hover {cursor: pointer;}
+
+body{background: url("img/bg.jpg") center top no-repeat  #3b1147;}
+.wrap{width: 800px; margin: 0 auto;text-align: center;padding:60px 0;}
+.row{width: 100%;text-align: center;}
+button{color: transparent; border: 0 none;}
+#ON_OFF{width: 74px;height: 41px; background: url('img/off.png') center top no-repeat; margin-bottom: 22px;}
+.head_buttons{margin: 0 auto;width: 500px; height: 80px;}
+#count{float: left; width: 89px; height: 42px; background: url('img/count.png') center top no-repeat; text-align: right; padding: 19px 33px 0 0; font-family: 'Kanit', sans-serif; font-weight: 800; margin: 0 0 0 25px; font-size: 1.5em;}
+button#start{float: left; width: 125px; height: 38px; background: url('img/start.png') center top no-repeat; margin: 15px 25px 0 25px;}
+button#strict{float: left; width: 125px; height: 38px; background: url('img/strict-off.png') center top no-repeat; margin: 15px 25px 0 0;}
+.buttons-wrap{max-width: 400px; margin: 0 auto;}
+.single-color-row{display: block; clear: both; width: 100%;}
+.double-color-row{display: block; clear: both; width: 100%;}
+.blue{width: 128px; height: 122px; background: url('img/blue.png') center top no-repeat;}
+.red{width: 128px; height: 122px; background: url('img/red.png') center top no-repeat; float: left;}
+.green{width: 128px; height: 122px; background: url('img/green.png') center top no-repeat; float: right;}
+.yellow{width: 128px; height: 122px; background: url('img/yellow.png') center top no-repeat;}
+#gameover_layer{position: absolute; top: 0; z-index: 999; background-color: rgba(0, 0, 0, 0.75); background-size: cover; background-position: center; color: #FFF; width: 100%; height: 100%; padding-top: 300px; display: none; font-family: 'Kanit', sans-serif; font-weight: 800;}
+#gameover_layer h1{margin: 0 auto; width: 800px; text-align: center; font-size: 3em; margin-bottom: 20px; color: #ffe500;}
+#gameover_layer p{margin: 0 auto; width: 800px; text-align: center; font-size: 2em; margin-bottom: 20px; color: darkorange;}
+.gameover-buttons-wrap{margin: 0 auto; width: 800px; text-align: center;}
+#continue_game{margin: 0 auto; display: block; font-family: 'Kanit', sans-serif; font-weight: 600;}
+#restart{margin: 0 auto; display: none; font-family: 'Kanit', sans-serif; font-weight: 600;}
+#gameover_layer button{-webkit-border-radius: 15; -moz-border-radius: 15; border-radius: 15px; color: #ffffff; font-size: 1em; background: #0db556; padding: 10px 20px 10px 20px; text-decoration: none;}
+#gameover_layer button:hover{background: #00db8b; text-decoration: none;}
+footer{width: 800px; margin: 0 auto; font-family: 'Kanit', sans-serif; font-weight: 600; color: #FFF; font-size: smaller; text-align: center; margin-top: 100px;}

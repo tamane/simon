@@ -1,0 +1,52 @@
+<head>
+	<meta charset="UTF-8">
+	<title>Free Code Camp – Build a Simon Game</title>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" type="text/javascript"></script>
+	<script src="simon.js" type="text/javascript"></script>
+    <link href="https://fonts.googleapis.com/css?family=Kanit:600,800" rel="stylesheet">
+    <link href="simon.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+	
+	<div class="wrap">
+		<div class="row">		
+			<button id="ON_OFF">ON/OFF</button>
+		</div>
+		<div class="row">
+			<div class="head_buttons">
+				<div id="count">0</div>
+				<button disabled id="start"></button>
+				<button disabled id="strict"></button>
+			</div>
+		</div>
+		
+		<div class="row buttons-wrap">
+			<audio id="simonSound0" src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3" type="audio/mp3"></audio>
+			<audio id="simonSound1" src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3" type="audio/mp3"></audio>
+			<audio id="simonSound2" src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3" type="audio/mp3"></audio>
+			<audio id="simonSound3" src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3" type="audio/mp3"></audio>
+			<audio id="gameOverSound" src="https://www.myinstants.com/media/sounds/errou_3.mp3" type="audio/mp3"></audio>
+			<div class="single-color-row">
+				<button type="button" disabled class="button blue" id="0">BLUE</button>
+			</div>
+			<div class="double-color-row">
+				<button type="button" disabled class="button red" id="1">RED</button>
+				<button type="button" disabled class="button green" id="2">GREEN</button>
+			</div>
+			<div class="single-color-row">
+				<button type="button" disabled class="button yellow" id="3">YELLOW</button>
+			</div>
+		</div>
+	</div>
+	<div id="gameover_layer">
+		<h1>GAME OVER!</h1>
+		<p>The strict mode is <span id="strict_span">OFF</span></p>
+		<div class="gameover-buttons-wrap">
+			<button id="continue_game">CONTINUE GAME</button>
+			<button id="restart">RESTART GAME</button>
+		</div>
+	</div>
+	<footer>2018 © ANDRÉ TAMANE - FREE CODE CAMP</footer>
+	
+</body>
